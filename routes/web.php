@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/finance', function () {
     return view('welcome');
 });
+Route::get('/payroll', function () {
+    return view('welcome');
+});
