@@ -22,3 +22,6 @@ Route::get('/finance', function () {
 Route::get('/payroll', function () {
     return view('welcome');
 });
+Route::get('/attendance', function () {
+    return view('welcome');
+});
